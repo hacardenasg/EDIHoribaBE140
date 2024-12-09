@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoribaBE140.Emulator", "HoribaBE140.Emulator\HoribaBE140.Emulator.csproj", "{24BDDB07-BA00-40CE-9D60-C30BE638F90E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoribaBE140.DTO", "HoribaBE140.DTO\HoribaBE140.DTO.csproj", "{EBCCAF07-FFD4-4B47-93F3-829CD8371C83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoribaBE140AD.EmulatorApp", "HoribaBE140AD.EmulatorApp\HoribaBE140AD.EmulatorApp.csproj", "{47D310F2-AD55-4A2F-B519-62D96D9B85D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{DBB5C172-2B0B-45FD-8E64-D03F40AE1FBC}"
+	ProjectSection(SolutionItems) = preProject
+		Components\ComputerFingerPrint.dll = Components\ComputerFingerPrint.dll
+		Components\LicenseClient.Windows.dll = Components\LicenseClient.Windows.dll
+		Components\Security.dll = Components\Security.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24BDDB07-BA00-40CE-9D60-C30BE638F90E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BDDB07-BA00-40CE-9D60-C30BE638F90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BDDB07-BA00-40CE-9D60-C30BE638F90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BDDB07-BA00-40CE-9D60-C30BE638F90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCCAF07-FFD4-4B47-93F3-829CD8371C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCCAF07-FFD4-4B47-93F3-829CD8371C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCCAF07-FFD4-4B47-93F3-829CD8371C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCCAF07-FFD4-4B47-93F3-829CD8371C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D310F2-AD55-4A2F-B519-62D96D9B85D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D310F2-AD55-4A2F-B519-62D96D9B85D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D310F2-AD55-4A2F-B519-62D96D9B85D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D310F2-AD55-4A2F-B519-62D96D9B85D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33F9BEE6-4F71-4212-A6D3-813C92D16175}
+	EndGlobalSection
+EndGlobal
